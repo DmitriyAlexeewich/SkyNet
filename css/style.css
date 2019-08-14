@@ -1,0 +1,106 @@
+
+body{
+	font-family: 'Roboto Condensed';
+	font-size: 12pt;
+	background-color: #efeff4;
+	margin: 0px;
+}
+.bannerwrapper{
+	display: flex;
+	flex-flow: row wrap;
+	width: auto;
+	min-width: 326px;
+	max-width: 1024px;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.banner{
+	width: 311px;
+	border: 2px solid #dedde0;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-between;
+}
+.title{
+	width: auto;
+	height: 36px;
+	margin-left: 15px;
+	border-bottom: 1px solid #dedde0;
+	display: flex;
+	align-items: center;
+	color: #8cc63d;
+}
+.infocont{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.infotext{
+	width: 305px;
+	padding-top: 6px;
+}
+.speedbox{
+	width: fit-content;
+	padding-left: 15px;
+	padding-right: 8px;
+	font-weight: bold;
+	color: white;
+	display: flex;
+	align-items: center;	
+	margin-bottom: 7px;
+}
+.pricebox{
+	width: auto;
+	margin-left: 15px;
+	margin-bottom: 8px;
+	font-size: 11pt;
+	font-weight: 100;
+	color: #4d575d;
+}
+.moreinfo{
+	margin-left: 15px;
+	width: auto;
+	height: 37px;
+	border-top: 1px solid #dedde0;
+	display: flex;
+	align-items: center;
+	color: #007aff;
+	font-size: 11pt;
+	text-decoration: none;
+}
+.imgwrapper{
+	width: 32px;
+	height: auto;
+	margin: auto 0px auto 12px;
+}
+.tarifftitle{
+	width: auto;
+	min-width: 326px;
+	height: 32px;
+	border-bottom: 1px solid #dedde0;
+	font-size: 15pt;
+	padding-top: 8px;	
+	margin-bottom: 16px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #f7f7f8;
+}
+.chosebtncont{
+	margin-left: 15px;
+	width: auto;
+	height: 45px;
+	border-top: 1px solid #dedde0;
+}
+.chosebtn{
+	margin-right: 15px;
+	margin-top: 5px;
+	height: 25px;
+	padding-top: 8px;
+	background-color: #8cc63d;
+	text-align: center;
+	color: white;
+	width: auto;
+}
